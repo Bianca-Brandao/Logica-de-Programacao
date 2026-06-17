@@ -10,3 +10,16 @@ if (media >= 6) {
 } else {
   console.log(`Você não passou, média ${media}!`);
 }
+
+//simplificando:
+/*let notas = [1,2,3,4]
+console.log(notas)
+
+let media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length
+console.log(`\nSua média é: ${media})
+
+if (media >= 6) {
+  console.log("Você passou!")
+} else {
+  console.log("Você não passou!)
+}*/
