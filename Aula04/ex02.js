@@ -1,12 +1,12 @@
-let sexo = "Feminino";
+let sexo = "feminino".toUpperCase();
 
 switch (sexo) {
-  case "Feminino":
+  case "FEMININO":
     console.log("Dirija-se ao banheiro à esquerda");
     break;
-  case "Masculino":
+  case "MASCULINO":
     console.log("Dirija-se ao banheiro à direita");
     break;
   default:
-    console.log("Banheiro inclusivo mais à frente");
+    console.log("Banheiro inclusivo no andar superior");
 }

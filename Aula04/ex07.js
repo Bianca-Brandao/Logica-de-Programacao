@@ -1,6 +1,6 @@
 let n1 = 4;
 let n2 = 8;
-let operacao = "a";
+let operacao = "a".toLowerCase();
 
 switch (operacao) {
   case "a":

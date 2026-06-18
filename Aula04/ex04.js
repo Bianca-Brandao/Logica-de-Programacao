@@ -1,4 +1,4 @@
-let sigla = "RJ";
+let sigla = "RJ".toUpperCase();
 
 switch (sigla) {
   case "RJ":

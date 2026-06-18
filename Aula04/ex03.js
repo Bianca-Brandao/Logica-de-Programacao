@@ -14,3 +14,14 @@ switch (n) {
     console.log("É ímpar!");
     break;
 }
+
+//ouuu
+/*let r = n % 2
+switch (r) {
+  case 0:
+    console.log("Par")
+    break
+  case 1:
+    console,log("Ímpar")
+    break
+}*/
