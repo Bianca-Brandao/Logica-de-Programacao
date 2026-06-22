@@ -1,0 +1,16 @@
+// Solução
+let matriz = [
+[1, 2],
+[3, 4]
+];
+// Acesso direto
+console.log(matriz[0][0]); // 1
+console.log(matriz[0][1]); // 2
+console.log(matriz[1][0]); // 3
+console.log(matriz[1][1]); // 4
+// Percorrendo a matriz com loops aninhados
+for (let i = 0; i < matriz.length; i++) {
+for (let j = 0; j < matriz[i].length; j++) {
+console.log(`[${i}][${j}] = ${matriz[i][j]}`);
+}
+}
